@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Domain\Document\Enums;
+
+enum FileCategoryEnum: string
+{
+    case SCHOOL_LOGO = 'SCHOOL_LOGO';
+    case SCHOOL_FAVICON = 'SCHOOL_FAVICON';
+    case STUDENT_AVATAR = 'STUDENT_AVATAR';
+    case TEACHER_AVATAR = 'TEACHER_AVATAR';
+    case GUARDIAN_AVATAR = 'GUARDIAN_AVATAR';
+    case IDENTITY_DOCUMENT = 'IDENTITY_DOCUMENT';
+    case REPORT_CARD_PDF = 'REPORT_CARD_PDF';
+    case REPORT_CARD_ZIP = 'REPORT_CARD_ZIP';
+    case OTHER_DOCUMENT = 'OTHER_DOCUMENT';
+}
